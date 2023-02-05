@@ -22,7 +22,7 @@ Report any problems in the [Issues](https://github.com/dev-fatal/queue-notify/is
 5. Write down the HTTP API token you get, and enter it under `token` in the `config.toml` file
 6. Ensure the `path` to your WoW folder in `config.toml` is correct. You must use double backslashes, e.g., `"C:\\Program Files (x86)\\World of Warcraft"`
 7. Run the program (from inside the directory, as before) with `python main.py`. You will need to run this whenever you want to begin monitoring after a restart
-8. When running for the first time, it will prompt you to send a message to your bot. Do this by clicking the `t.me/{username}` link given to you by the BotFather
+8. When running for the first time, it will prompt you to send a message to your bot. Do this by clicking the `t.me/{username}` link given to you by the BotFather. Note you need to type something other than the default `/start`.
 9. Stop monitoring by closing the Command Prompt window.
 
 
