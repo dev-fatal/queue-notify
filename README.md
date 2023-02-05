@@ -7,7 +7,7 @@ Program that sends you a text when your Solo Shuffle pops in World of Warcraft. 
 Report any problems in the [Issues](https://github.com/dev-fatal/queue-notify/issues) tab, but please try searching things yourself first.
 
 ## Installation
-1. Install the QueueNotify addon via [Wago](https://addons.wago.io/addons/queuenotify) or ~~[CurseForge](https://www.curseforge.com/wow/addons/queuenotify)~~ (upload pending) or and then `/reload`
+1. Install the QueueNotify addon via [Wago](https://addons.wago.io/addons/queuenotify) or ~~[CurseForge](https://www.curseforge.com/wow/addons/queuenotify)~~ (upload pending) and then `/reload`
 2. Install [Python 3 for Windows](https://www.python.org/downloads/) and ensure it's in your PATH. Note that this program has been tested on Python version 3.10
 3. Download this repo (`git clone https://github.com/dev-fatal/queue-notify`, or [download the ZIP](https://github.com/dev-fatal/queue-notify/archive/refs/heads/main.zip) and then extract it somewhere)
 4. Open Command Prompt and `cd` into where you saved it, e.g., `cd C:\Users\test\Documents\queue-notify`
