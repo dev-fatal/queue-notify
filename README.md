@@ -15,7 +15,6 @@ You can view the addon source code here: https://github.com/dev-fatal/queue-noti
 4. Open Command Prompt and `cd` into where you saved it, e.g., `cd C:\Users\test\Documents\queue-notify`
 5. Run `pip install -r requirements.txt` and wait until complete.
 
-
 ## Setup
 1. Install the [Telegram app](https://telegram.org/apps) on your phone and sign up
 2. Open a new message to the user `@BotFather` and type `/newbot`. You will then be prompted to fill in some values
@@ -26,6 +25,12 @@ You can view the addon source code here: https://github.com/dev-fatal/queue-noti
 7. Run the program (from inside the directory, as before) with `python main.py`. You will need to run this whenever you want to begin monitoring after a restart
 8. When running for the first time, it will prompt you to send a message to your bot. Do this by clicking the `t.me/{username}` link given to you by the BotFather. Note you need to type something as well as the default `/start`.
 9. Stop monitoring by closing the Command Prompt window.
+
+
+## Linux
+If using Linux, you should make the following changes:
+- Change `self.path = config["path"] + "\\_retail_\\Screenshots"` to `self.path = config["path"] + "/_retail_/Screenshots"` in `monitor.py`
+- Use a path in the config such as `path = "/home/<username>/.local/share/Steam/steamapps/compatdata/<id>/pfx/drive_c/Program Files (x86)/World of Warcraft"`
 
 
 ## Updates
