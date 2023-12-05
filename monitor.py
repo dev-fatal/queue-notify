@@ -2,6 +2,7 @@ from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 import time
 from message import send_message
+from windows_notification import show_windows_notification
 import os
 
 
@@ -21,6 +22,8 @@ class ScanFolder:
     def on_created(self, event):
         send_message(self.token, self.chat_id)
         print("Sending message...")
+        # Uncoment the following line to enable windows notifications
+        # show_windows_notification()
         if os.path.exists(event.src_path):
             os.remove(event.src_path)  # Delete the screenshot we created
 

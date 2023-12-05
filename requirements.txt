@@ -1,3 +1,4 @@
 requests
 toml
 watchdog
+winsdk
